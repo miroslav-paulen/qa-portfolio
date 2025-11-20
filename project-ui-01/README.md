@@ -3,6 +3,7 @@ Pojmy
 
 
 Testy :
+            
             Funkčné : Testovanie funkcionality podla špecifikácie
             
             Regresné : Testovanie že existujúce funkcie sa nepokazili po oprave, novej funkcii, úprave kódu
@@ -11,6 +12,7 @@ Testy :
 
 
 Závažnosť :
+           
             Critical - systém padá, nedá sa použiť
             
             High     - Hlavná funkcionalita je rozbitá
@@ -20,6 +22,7 @@ Závažnosť :
             Low      - kozmetické chyby
 
 Priorita :
+            
             High   - musí sa opraviť hneď
             
             Medium - opraviť čoskoro
