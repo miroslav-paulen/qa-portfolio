@@ -9,6 +9,7 @@ Oč : chybová hláška nesprávne heslo, zostanem neprihlásený
 TC003 Neexistujúci užívatel
 kroky : zadanie nesprávneho login a nesprávneho hesla
 Oč : chybová hláška o neexistujúcom používatelovy. zostanem neprihlásený
+
 4, TC004 prihlásenie s práznimi polami
 kroky : pokus o prihlásenie sa s nevyplnením login a heslom
 Oč : chybová hláška zadajte login/heslo, zostanem odhlásený
