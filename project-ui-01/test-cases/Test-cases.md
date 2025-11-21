@@ -16,7 +16,7 @@ Oč : chybová hláška zadajte login/heslo, zostanem odhlásený
 
 5, TC005 rôznorodé prihlasovanie
 kroky : prihlasovanie pomocou správneho login s velkými písmenami
-oč : prihlásenie úspené -> stav prihlásený
+oč : prihlásenie úspešné -> stav prihlásený
 
 6, TC006 refresh stránky
 kroky : prihlásenie -> F5/ refresh stránky
