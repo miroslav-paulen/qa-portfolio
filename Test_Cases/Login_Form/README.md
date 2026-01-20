@@ -6,8 +6,9 @@ Tento priečinok obsahuje všetky testovacie prípady ktoré som navrhol a použ
 
 ## Štruktúra
 
-- ✅ [Login_Positive.md](./Login_Positive.md) – valídne prihlasovacie údaje a očakávané úspešné prihlásenie
-- ❌ [Login_Negative.md](./Login_Negative.md) – neplatné prihlasovacie údaje,čiastočne alebo vôbec nevyplnené údaje, validačné chybové hlášky
+  – [Login.md](./Login.md)  
+  – ✅ – valídne prihlasovacie údaje a očakávané úspešné prihlásenie  
+  – ❌ – neplatné prihlasovacie údaje,čiastočne alebo vôbec nevyplnené údaje, validačné chybové hlášky  
 
 ---
 
