@@ -1,17 +1,18 @@
 # QA Manual Testing Portfolio 
 
 Toto je **tréningové (junior) QA portfólio** zamerané na manuálne testovanie webovej aplikácie (demo e‑shop **SauceDemo**).
-Nie je to „10 rokov praxe“ portfólio – cieľom je ukázať **systematický prístup**, základné QA myslenie a čistú dokumentáciu.
+     Cieľom je ukázať **systematický prístup**, základné QA myslenie a čistú dokumentáciu.
 
-## Čo tu nájdeš
-- **Test Cases** (SMOKE + REGRESSION) pre moduly:
-  - LOGIN
-  - PRODUCTS
-  - CART
-  - CHECKOUT
-- V každom TC sú: Preconditions, Steps, Test Data, Expected/Actual result, Status.
-
-## Testovacia stratégia (krátko)
+## Čo tu nájdete
+- **Test Cases**
+  - SMOKE + REGRESSION TESTY PRE :
+    - LOGIN
+    - PRODUCTS
+    - CART
+    - CHECKOUT
+    - V každom TC sú: Preconditions, Steps, Test Data, Expected/Actual result, Status.
+ 
+## Testovacia stratégia
 ### 🔥 Smoke tests
 Rýchla sada testov, ktorá overí, či build vôbec „drží pokope“ (login, products, cart, checkout).
 Ak smoke test failne, ďalšie testovanie sa pozastaví.
@@ -28,10 +29,3 @@ Rozšírené scenáre (navigácia, dodatočné overenia, negatívne scenáre).
 
 ## Poznámky
 - Počas testovania neboli nájdené reprodukovateľné funkčné chyby (všetky vykonané TC sú PASS).
-- TC so statusom **NOT RUN** sú pripravené, ale ešte neboli spustené.
-
-## Čo by som doplnil ďalej
-- Bug reporting do JIRA + workflow (To Do → In Progress → Done)
-- Rozšírenie o API testing (napr. Postman)
-- Základy SQL na overenie dát (SELECT / WHERE / COUNT)
-
