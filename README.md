@@ -14,10 +14,6 @@ Toto je **tréningové (junior) QA portfólio** zamerané na manuálne testovani
    
 [Test_Cases](Test_Cases/README.md)
    
-[Login](Test_Cases/Login_Form/README.md)  
-[Products](Test_Cases/Products/README.md)  
-[Cart](Test_Cases/Cart/README.md)  
-[Checkout](Test_Cases/Checkout/README.md)
  
 ## Testovacia stratégia
 ### 🔥 Smoke tests
@@ -28,8 +24,10 @@ Ak smoke test failne, ďalšie testovanie sa pozastaví.
 Rozšírené scenáre (navigácia, dodatočné overenia, negatívne scenáre).
 
 ## Prostredie
-- Browser: Chrome
-- Test type: Manual UI testing
+- Desktop : 1920x1080 (Full HD)  
+- system : Win 10 
+- Browser : Chrome ver. 143.0.7499.193
+- Test type : Manual UI testing
 
 ## Súbory
 - `QA_Portfolio_SauceDemo_TestCases.xlsx` – kompletná sada test cases v jednom súbore.
