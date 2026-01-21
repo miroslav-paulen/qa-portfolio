@@ -10,25 +10,64 @@ Pokritie pozitívnych a negatívnych test case prípadov Checkout, jeho zobrazov
 
 - TC-CHECKOUT-001 - Prechod na Checkout
 - TC-CHECKOUT-002 - Validácia povinných polí v Checkout  
-- TC-CHECKOUT-003 - Odobratie produktu z košíka  
+- TC-CHECKOUT-003 - Vyplnenie Checkout formulára valídnymi údajmi  
 
 ---
 
-## ✅ TC-CART-001 – Prvok viditeľný pri načítaní stránky
+## ✅ TC-CART-001 – Prechod na Checkout
 
-**Title:** Prvok košík viditeľný v pravo hore pri načítaní stránky  
-**Section:** Cart  
-**Preconditions:** Používateľ je na stránke Login  
-**Test Data:** standard_user / secret_sauce    
-**Expected Result:** Po prihlásení stránky Products je v pravom hornom rohu ikona košík  
-**Actual Result:** Tlačidlo sa správne prepínalo  
+**Title:** Prechod na Checkout  
+**Section:** Checkout  
+**Preconditions:** V košíku je aspoň 1 produkt  
+**Test Data:** —  
+**Expected Result:** Zobrazí sa Checkout: Your Information  
+**Actual Result:** Zobrazil sa Checkout: Your Information formulár  
 **Defects:** —  
 **Execution Status:** Passed     
 **Steps:** 
 
-| Step | Action                                                            |
-| ---- | ------------------------------------------------------------------|
-| 1    | Prihlásenie sa pomocou validných údajov                           |
-| 2    | skontrolovať či sa v pravom hornom rohu nachádza ikona košík      |
+| Step | Action           |
+| ---- | ---------------- |
+| 1    | Otvor košík      |
+| 2    | Click “Checkout” |
 
 ---
+
+## ✅ TC-CHECKOUT-002 – Validácia povinných polí v Checkout
+
+**Title:** Validácia povinných polí v Checkout  
+**Section:** Checkout  
+**Preconditions:** Používateľ je na Checkout: Your Information  
+**Test Data:** —  
+**Expected Result:** Zobrazí sa validačná chybová hláška  
+**Actual Result:** Zobrazila sa chybová hláška o povinnom vyplnení krstného mena    
+**Defects:** —  
+**Execution Status:** Passed     
+**Steps:** 
+
+| Step | Action              |
+| ---- | ------------------- |
+| 1    | Nevyplň žiadne pole |
+| 2    | Click “Continue”    |
+
+---
+
+## ✅ TC-CHECKOUT-003 – Vyplnenie Checkout formulára valídnymi údajmi
+
+**Title:** Vyplnenie Checkout formulára valídnymi údajmi  
+**Section:** Checkout  
+**Preconditions:** Používateľ je na Checkout: Your Information  
+**Test Data:** Ján. Janovič, 83208  
+**Expected Result:** Zobrazí sa Checkout: Overview s informáciami o produktoch, platbe, doručení a cene 
+**Actual Result:** Zobrazila sa Checkout: Overview s informáciami o produktoch, platbe, doručení a cene   
+**Defects:** —  
+**Execution Status:** Passed     
+**Steps:** 
+
+| Step | Action              |
+| ---- | ------------------- |
+| 1    | Vyplň valídne každné pole |
+| 2    | Click “Continue”    |
+
+
+
