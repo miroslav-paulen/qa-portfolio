@@ -31,7 +31,7 @@ Pokritie pozitívnych a negatívnych test case prípadov, validačných chybový
 | Step | Action                           | 
 |------|----------------------------------|
 | 1    | Zadaj username: standard_user    | 
-| 2    | Zadaj password: seacret_sauce    | 
+| 2    | Zadaj password: secret_sauce    | 
 | 3    | Click “Login”                    | 
 
 ---
@@ -79,7 +79,7 @@ Pokritie pozitívnych a negatívnych test case prípadov, validačných chybový
 **Title:** Login s prázdnym username a validným password  
 **Section:** Login_Form  
 **Preconditions:** Používateľ je na login stránke SauceDemo  
-**Test Data:** (prázdne)/seacrit_sauce  
+**Test Data:** (prázdne)/secret_sauce  
 **Expected Result:** Používateľ zostane neprihlásený a zobrazí sa validačná chybová hláška pre chýbajúci username  
 **Actual Result:** Používateľ zostal neprihlásený a zobrazila sa validačná chybová hláška Zobrazila sa chybová hláška: "Username is required"  
 **Defects:** —   
@@ -89,7 +89,7 @@ Pokritie pozitívnych a negatívnych test case prípadov, validačných chybový
 | Step | Action                           | 
 |------|----------------------------------|
 | 1    | Zadaj username: (prázdne)        | 
-| 2    | Zadaj password: seacrit_sauce    | 
+| 2    | Zadaj password: secret_sauce    | 
 | 3    | Click “Login”                    |
 
 ---
@@ -111,3 +111,7 @@ Pokritie pozitívnych a negatívnych test case prípadov, validačných chybový
 | 1    | Zadaj username: (prázdne)        | 
 | 2    | Zadaj password: (prázdne)        | 
 | 3    | Click “Login”                    |
+
+
+
+
