@@ -1,6 +1,6 @@
 ## Prehľad sady webových testov
 
-Táto sekcia obsahuje štruktúrované testovacie prípady pre webovú aplikáciu. Každá sekcia je usporiadaná do vlastného priečinka a obsahuje pozitívne a negatívne scenáre.
+Každá sekcia obsahuje štruktúrované testovacie prípady pre webovú aplikáciu, je usporiadaná do vlastného priečinka a obsahuje pozitívne a negatívne scenáre.
 
 ---
 
