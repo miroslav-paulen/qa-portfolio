@@ -17,6 +17,5 @@ Tento priečinok obsahuje všetky pozitívne a negatívne testovacie prípady kt
 
 Test Case sú zamerané na :
 
-- **dsadasda** - Zobrazovanie, umiestnenie 
-- **Logika UI** - platné pokusi o zobrazenie, pohybovanie sa v aplikácii
-
+- **Validácia polí** - štruktúra, povinné polia
+- **Autentifikačná logika** - platné a neplatné pokusi o odoslanie formulára
