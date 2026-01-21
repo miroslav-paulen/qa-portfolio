@@ -1,6 +1,6 @@
 ## Prehľad sady webových testov
 
-Táto sekcia obsahuje štruktúrované testovacie prípady pre webovú aplikáciu. Každý modul je usporiadaný do vlastného priečinka a obsahuje pozitívne a negatívne scenáre.
+Táto sekcia obsahuje štruktúrované testovacie prípady pre webovú aplikáciu. Každá sekcia je usporiadaná do vlastného priečinka a obsahuje pozitívne a negatívne scenáre.
 
 ---
 
@@ -14,3 +14,9 @@ Všetky testovacie prípady sú napísané pre manuálne testovanie, dodržiavaj
 
 ---
 
+## Sekcie
+
+[Login](Test_Cases/Login_Form/README.md)  
+[Products](Test_Cases/Products/README.md)  
+[Cart](Test_Cases/Cart/README.md)  
+[Checkout](Test_Cases/Checkout/README.md)
