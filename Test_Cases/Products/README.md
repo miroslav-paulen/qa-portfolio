@@ -7,7 +7,9 @@ Tento priečinok obsahuje všetky testovacie prípady ktoré som navrhol a použ
 ## Štruktúra
 
   – [Products](./Products.md)  
-  – ✅ – valídne zobrazovanie produktov, ich detailov a pohyb v aplikácii
+  – valídne zobrazovanie produktov  pohyb v aplikácii  
+  – valídne zobrazovanie detailov produktov  
+  – pohyb v aplikácii   
 
 ---
 
