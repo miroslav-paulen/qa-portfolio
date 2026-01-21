@@ -11,7 +11,7 @@ Pokritie pozitívnych test case prípadov produktov, ich zobrazovanie, umiestnen
 - TC-PRODUCTS-001 - Zobrazenie zoznamu produktov po úspešnom loginu
 - TC-PRODUCTS-002 - Detail produktu
 - TC-PRODUCTS-003 - Návrat z detailu produktu na Products stránku
-- TC-PRODUCTS-004 - Prvok viditeľný pri načítaní stránky
+- TC-PRODUCTS-004 - Filtrovanie produktov
 - TC-PRODUCTS-005 - Responzívne rozloženie mriežky
 
 ---
@@ -72,22 +72,22 @@ Pokritie pozitívnych test case prípadov produktov, ich zobrazovanie, umiestnen
 
 ---
 
-## ✅ TC-PRODUCTS-004 – Prvok viditeľný pri načítaní stránky
+## ✅ TC-PRODUCTS-004 – Filtrovanie produktov
 
-**Title:** Overiť, či sú produkty viditeľné po prihlásení  
+**Title:** Overiť, či je správne funguje filtrovanie produktov  
 **Section:** Products  
-**Preconditions:** Používateľ je na stránke Login  
-**Test Data:** standard_user / secret_sauce   
-**Expected Result:** Po zmene veľkosti prehliadača, responzívne rozloženie sa prispôsobí veľkosti obrazovky  
-**Actual Result:** Po zmene veľkosti prehliadača, mriežka sa responzívne prispôsobí formátu a produkty zostan vycentrované na stred   
+**Preconditions:** Používateľ je na stránke Products  
+**Test Data:** zmena filtra - Price(low to high)   
+**Expected Result:** Po zmene filtra sa zmení poradie produktov podľa požadovaného poradia   
+**Actual Result:** Po zmene filtra sa zmenilo poradie produktov podľa požadovaného poradia    
 **Defects:** —  
 **Execution Status:** Passed     
 **Steps:**  
 
 | Step | Action                   |
 | ---- | ------------------------ |
-| 1    | Zmena veľkosti prehliadača |
-| 2    | Skontroluj umiestnenie produktov |
+| 1    | Klikni na filter a vyber Price (low to high) |
+| 2    | Skontroluj zoradenie produktov |
 
 ---
 
@@ -98,7 +98,7 @@ Pokritie pozitívnych test case prípadov produktov, ich zobrazovanie, umiestnen
 **Preconditions:** Používateľ je na stránke Products  
 **Test Data:** —   
 **Expected Result:** Po zmene veľkosti prehliadača, responzívne rozloženie sa prispôsobí veľkosti obrazovky  
-**Actual Result:** Po zmene veľkosti prehliadača, mriežka sa responzívne prispôsobí formátu a produkty zostan vycentrované na stred   
+**Actual Result:** Po zmene veľkosti prehliadača, mriežka sa responzívne prispôsobí formátu a produkty zostan  vycentrované na stred   
 **Defects:** —  
 **Execution Status:** Passed     
 **Steps:**  
