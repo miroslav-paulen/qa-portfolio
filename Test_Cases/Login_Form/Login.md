@@ -80,7 +80,7 @@ Pokritie pozitívnych a negatívnych test case prípadov, validačných chybový
 **Section:** Login_Form  
 **Preconditions:** Používateľ je na login stránke SauceDemo  
 **Test Data:** (prázdne)/seacrit_sauce  
-**Expected Result:** Používateľ zostane neprihlásený a zobrazí sa validačná chybová hláška pre chýbajúci username
+**Expected Result:** Používateľ zostane neprihlásený a zobrazí sa validačná chybová hláška pre chýbajúci username  
 **Actual Result:** Používateľ zostal neprihlásený a zobrazila sa validačná chybová hláška Zobrazila sa chybová hláška: "Username is required"  
 **Defects:** —   
 **Execution Status:** Passed     
