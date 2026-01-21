@@ -29,8 +29,6 @@ Rozšírené scenáre (navigácia, dodatočné overenia, negatívne scenáre).
 - Browser : Chrome ver. 143.0.7499.193
 - Test type : Manual UI testing
 
-## Súbory
-- `QA_Portfolio_SauceDemo_TestCases.xlsx` – kompletná sada test cases v jednom súbore.
 
 ## Poznámky
 - Počas testovania neboli nájdené reprodukovateľné funkčné chyby (všetky vykonané TC sú PASS).
