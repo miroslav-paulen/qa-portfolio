@@ -29,3 +29,6 @@ Rozšírené scenáre (navigácia, dodatočné overenia, negatívne scenáre).
 
 ## Poznámky
 - Počas testovania neboli nájdené reprodukovateľné funkčné chyby (všetky vykonané TC sú PASS).
+
+
+[Test_Cases/Login_Form/README.md](Test_Cases/Login_Form/README.md)
