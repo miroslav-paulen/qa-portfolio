@@ -33,7 +33,7 @@ Pokritie pozitívnych a negatívnych test case prípadov Checkout, jeho zobrazov
 
 ---
 
-## ✅ TC-CHECKOUT-002 – Validácia povinných polí v Checkout
+## 🚫 TC-CHECKOUT-002 – Validácia povinných polí v Checkout
 
 **Title:** Validácia povinných polí v Checkout  
 **Section:** Checkout  
@@ -57,7 +57,7 @@ Pokritie pozitívnych a negatívnych test case prípadov Checkout, jeho zobrazov
 **Title:** Vyplnenie Checkout formulára valídnymi údajmi  
 **Section:** Checkout  
 **Preconditions:** Používateľ je na Checkout: Your Information  
-**Test Data:** Ján. Janovič, 83208  
+**Test Data:** Ján, Janovič, 83208  
 **Expected Result:** Zobrazí sa Checkout: Overview s informáciami o produktoch, platbe, doručení a cene 
 **Actual Result:** Zobrazila sa Checkout: Overview s informáciami o produktoch, platbe, doručení a cene   
 **Defects:** —  
