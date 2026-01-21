@@ -11,6 +11,9 @@ Toto je **tréningové (junior) QA portfólio** zamerané na manuálne testovani
     - CART
     - CHECKOUT
     - V každom TC sú: Preconditions, Steps, Test Data, Expected/Actual result, Status.
+   
+[Test_Cases/Login_Form/README.md](Test_Cases/Login_Form/README.md)
+
  
 ## Testovacia stratégia
 ### 🔥 Smoke tests
@@ -30,5 +33,3 @@ Rozšírené scenáre (navigácia, dodatočné overenia, negatívne scenáre).
 ## Poznámky
 - Počas testovania neboli nájdené reprodukovateľné funkčné chyby (všetky vykonané TC sú PASS).
 
-
-[Test_Cases/Login_Form/README.md](Test_Cases/Login_Form/README.md)
