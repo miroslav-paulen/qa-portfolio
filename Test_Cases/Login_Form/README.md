@@ -7,8 +7,11 @@ Tento priečinok obsahuje všetky testovacie prípady ktoré som navrhol a použ
 ## Štruktúra
 
   – [Login](./Login.md)  
-  – ✅ – valídne prihlasovacie údaje a očakávané úspešné prihlásenie  
-  – ❌ – neplatné prihlasovacie údaje,čiastočne alebo vôbec nevyplnené údaje, validačné chybové hlášky  
+  – ✅ – valídne prihlasovacie údaje   
+  – ✅ – očakávané úspešné prihlásenie   
+  – ❌ – neplatné prihlasovacie údaje   
+  – ❌ – čiastočne alebo vôbec nevyplnené údaje     
+  – ❌ – validačné chybové hlášky    
 
 ---
 
