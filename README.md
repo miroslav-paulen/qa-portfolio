@@ -12,6 +12,8 @@ Toto je **tréningové (junior) QA portfólio** zamerané na manuálne testovani
     - CHECKOUT
     - V každom TC sú: Preconditions, Steps, Test Data, Expected/Actual result, Status.
    
+[Test_Cases](Test_Cases/README.md)
+   
 [Login](Test_Cases/Login_Form/README.md)  
 [Products](Test_Cases/Products/README.md)  
 [Cart](Test_Cases/Cart/README.md)  
